@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec5b13",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221610",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<header class="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-2 rounded-lg">
+<span class="material-symbols-outlined text-white text-2xl">construction</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Harihar Hardware &amp; Paints</h1>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-semibold text-primary" href="#">Products</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+<input class="pl-10 pr-4 py-2 bg-slate-100 dark:bg-slate-800 border-none rounded-xl text-sm focus:ring-2 focus:ring-primary w-64" placeholder="Search catalog..." type="text"/>
+</div>
+<button class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors relative">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="absolute top-1 right-1 w-2 h-2 bg-primary rounded-full"></span>
+</button>
+<div class="h-10 w-10 rounded-full bg-primary/20 flex items-center justify-center overflow-hidden border-2 border-primary/50">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="flex flex-col md:flex-row gap-8">
+<aside class="w-full md:w-64 flex-shrink-0">
+<div class="sticky top-28 space-y-8">
+<div>
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Categories</h3>
+<div class="space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg bg-primary/10 text-primary font-medium" href="#">
+<span class="material-symbols-outlined text-xl">all_inclusive</span>
+<span class="text-sm">All Products</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-400 transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">build</span>
+<span class="text-sm">Tools</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-400 transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">format_paint</span>
+<span class="text-sm">Paints</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-400 transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">bolt</span>
+<span class="text-sm">Electrical</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-400 transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">faucet</span>
+<span class="text-sm">Plumbing</span>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Brands</h3>
+<div class="space-y-2 px-3">
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-slate-300 text-primary focus:ring-primary h-4 w-4" type="checkbox"/>
+<span class="text-sm group-hover:text-primary transition-colors">Bosch Industrial</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-slate-300 text-primary focus:ring-primary h-4 w-4" type="checkbox"/>
+<span class="text-sm group-hover:text-primary transition-colors">Asian Paints</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-slate-300 text-primary focus:ring-primary h-4 w-4" type="checkbox"/>
+<span class="text-sm group-hover:text-primary transition-colors">DeWalt Tools</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-slate-300 text-primary focus:ring-primary h-4 w-4" type="checkbox"/>
+<span class="text-sm group-hover:text-primary transition-colors">Havells</span>
+</label>
+</div>
+</div>
+<div>
+<h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Price Range</h3>
+<div class="px-3">
+<input class="w-full accent-primary h-1.5 bg-slate-200 dark:bg-slate-700 rounded-lg cursor-pointer" type="range"/>
+<div class="flex justify-between mt-2 text-xs font-medium">
+<span>₹0</span>
+<span>₹50,000+</span>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<div class="flex-1">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4">
+<div>
+<h2 class="text-3xl font-extrabold tracking-tight">Industrial Catalog</h2>
+<p class="text-slate-500 dark:text-slate-400 mt-1">Showing 1,240 heavy-duty products</p>
+</div>
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-2 px-4 py-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-sm font-medium">
+<span class="material-symbols-outlined text-lg text-slate-500">sort</span>
+                            Sort: Featured
+                        </button>
+<div class="flex border border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden bg-white dark:bg-slate-800">
+<button class="p-2 bg-slate-100 dark:bg-slate-700">
+<span class="material-symbols-outlined text-lg">grid_view</span>
+</button>
+<button class="p-2 hover:bg-slate-100 dark:hover:bg-slate-700">
+<span class="material-symbols-outlined text-lg">view_list</span>
+</button>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="group bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="aspect-square bg-slate-100 dark:bg-slate-900 overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Professional electric drill and industrial power tools" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAn0goP4JVtbiOTKH2ghs34cQkZxXHkm96doBmOh2t9vAfkAro2UrbNPw2G8c8WfuflNSx_adkE2W9s2f2ybiaRpn6cbX0or5ICW5YklvtcRqs03WyNR7I_TKyJitKFTkbn2T38taJQrpNHGqODPQRGWJattJjkW3EdCWIOh2oMtjAcmkTcGAzZ07o2lclod8nT-xZ3kGJnyjXUDkRgPs8W7RZ78vvqBHjZVn2bjuqMne6dQE8DfQeuKHBRVYPfF85H0JQbzEr7pQ"/>
+<div class="absolute top-3 left-3 bg-primary text-white text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded">Bestseller</div>
+</div>
+<div class="p-5">
+<div class="flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-amber-400 text-sm fill-1">star</span>
+<span class="text-xs font-bold">4.8</span>
+<span class="text-xs text-slate-400">(120 reviews)</span>
+</div>
+<h3 class="font-bold text-lg mb-1 group-hover:text-primary transition-colors">Heavy Duty Drill GSB 18V-55</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-2 mb-4">Professional performance with brushless motor for industrial masonry and steel.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-extrabold text-primary">₹14,999</span>
+<button class="p-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+<button class="w-full mt-4 py-2 text-sm font-bold border-2 border-primary/20 group-hover:border-primary/50 rounded-xl hover:bg-primary/10 transition-colors">View Details</button>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="aspect-square bg-slate-100 dark:bg-slate-900 overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Selection of bright colored industrial paint buckets" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8aY26Tcg9-VOUBoujBgdXA8F0nEEuXQi9nDnx-ntS3UHTATRcRwGXZDPVh-XlqKuNjqWS2VvQG4vf5gnSq8wYPvV998RvHSgsvZQ9Kdb_KwtAOrPMwsy5PZFIO0G1nOVYKA-LLq7OZYhJQjSKXW4RzOmEv-38zeLIw_ZGSIyJG2uIQllG-DMDga0XcKyvHWn-YUaMNEmC3wmLXYHDtBcqGkPm_9XwQ_IDIAXC3opTk7v3yqKfGl85quAm9hirFWitVEj9wTgALQ"/>
+<div class="absolute top-3 right-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold px-2 py-1 rounded">20% OFF</div>
+</div>
+<div class="p-5">
+<div class="flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-amber-400 text-sm fill-1">star</span>
+<span class="text-xs font-bold">4.9</span>
+<span class="text-xs text-slate-400">(340 reviews)</span>
+</div>
+<h3 class="font-bold text-lg mb-1 group-hover:text-primary transition-colors">WeatherShield Ultimate 20L</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-2 mb-4">Advanced protection against extreme humidity and UV rays. Perfect for exteriors.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-extrabold text-primary">₹8,450</span>
+<button class="p-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+<button class="w-full mt-4 py-2 text-sm font-bold border-2 border-primary/20 group-hover:border-primary/50 rounded-xl hover:bg-primary/10 transition-colors">View Details</button>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="aspect-square bg-slate-100 dark:bg-slate-900 overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Copper electrical wiring and cables" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH9rKcoJmfjaPI2AgeLAEnUi2uKiAax2k1Pfa4PESd03PP__akeUsYnjaGxJMo6ykiKhYnXlYM_fVQIt_V2mefChd3XRkAPymenxkupSK-Fg9KTSnGeWXb7r43zcZI2ERNpxjsS_DRw6AvgsqIP_Deat3G3Sg7wqcZXeZkhpWoEy0bff7sD3JyLB0c3ODWU7B8RHT6QSYXRtQmn48b0_llGl5_YuHtmh9jVuBQ1u83guab2cfK_5vjT-GKqy9mt3G38KFyfU0KCA"/>
+</div>
+<div class="p-5">
+<div class="flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-amber-400 text-sm fill-1">star</span>
+<span class="text-xs font-bold">4.7</span>
+<span class="text-xs text-slate-400">(85 reviews)</span>
+</div>
+<h3 class="font-bold text-lg mb-1 group-hover:text-primary transition-colors">Industrial Grade Copper Cable</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-2 mb-4">Low-smoke fire retardant high-performance wiring for complex industrial circuits.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-extrabold text-primary">₹3,299</span>
+<button class="p-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+<button class="w-full mt-4 py-2 text-sm font-bold border-2 border-primary/20 group-hover:border-primary/50 rounded-xl hover:bg-primary/10 transition-colors">View Details</button>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="aspect-square bg-slate-100 dark:bg-slate-900 overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Steel pipe fittings and hardware" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASzqrb5MK7DKjPqacR7peHjYo7ggGqU1urE-LpA_BiYEbDyYGcHI6tFvcQYJ6ZyBplcfN3q5tBv5nzInrnJybZ79J_my6RUmC-FcFgwiF468LlLsAZzk0dztQ5yjKyPDhpkYrjlz9OvYWddgSmyJDOND5F_IfhThIsHpTno5NBH6bgNpvwHicVl8E1wyPGmRbBW72o-mTlcfSq56tZZVg_RpOvrRy6scKBfRC9uhroHTbaspyKidJXCnL7dpSVF3HTgPwiXf5mmg"/>
+</div>
+<div class="p-5">
+<div class="flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-amber-400 text-sm fill-1">star</span>
+<span class="text-xs font-bold">4.6</span>
+<span class="text-xs text-slate-400">(210 reviews)</span>
+</div>
+<h3 class="font-bold text-lg mb-1 group-hover:text-primary transition-colors">Stainless Steel Valve Set</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-2 mb-4">Precision engineered valves for high-pressure water systems and chemicals.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-extrabold text-primary">₹5,400</span>
+<button class="p-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+<button class="w-full mt-4 py-2 text-sm font-bold border-2 border-primary/20 group-hover:border-primary/50 rounded-xl hover:bg-primary/10 transition-colors">View Details</button>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="aspect-square bg-slate-100 dark:bg-slate-900 overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Digital measuring tools and calipers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtPL_0MyZZe4r7epm887o2onYh3xkKQJm3xe-NH-X2IHDiAhJ0pRVq-wpStevzrwDJf4MyINyzugsDD3JvKjyVFWu3l0iuDfMKi1clLASWzKahCsn6iPzK23QG2ZvW9-WoansSTrlAFKGbIZPjdsiPxSCrnXgTU0jj9eEUa3M9oi07rfly2qvrxP0I9FeZYCKOVTPnAYJ8v04jQNEuoJgVBIhXC-0LdVjgGfVL67e_cWCuCQSVkqqF5SitMnVs-LFqa_b-Vc6Nng"/>
+</div>
+<div class="p-5">
+<div class="flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-amber-400 text-sm fill-1">star</span>
+<span class="text-xs font-bold">4.9</span>
+<span class="text-xs text-slate-400">(45 reviews)</span>
+</div>
+<h3 class="font-bold text-lg mb-1 group-hover:text-primary transition-colors">Precision Digital Caliper</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-2 mb-4">High accuracy measurement tool for engineering and industrial design.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-extrabold text-primary">₹2,850</span>
+<button class="p-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+<button class="w-full mt-4 py-2 text-sm font-bold border-2 border-primary/20 group-hover:border-primary/50 rounded-xl hover:bg-primary/10 transition-colors">View Details</button>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-primary transition-all shadow-sm hover:shadow-xl">
+<div class="aspect-square bg-slate-100 dark:bg-slate-900 overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Industrial spray paint booth equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxMLoQ6lyMdszp1bxFq6EPyIqV6SLmjmbtt9YZiORJ_b-oFdmLZj9J2WJc_Mu81Y2urvpdku_uyoWuW90hYRBuL8fkc8xeAC3fkO-o9DtyNMOL_Po4WTcRmJThBzimqzeFUBemMEJAfx5XNRjX2iwFMP_uDE2gsiEG2K835H88DLQ1maNfXiZAwsojs9Stqe4czLkpnU5CxXn3RMZvRsYDYv0xjacmffs6ryvJrzr7olIwGOd0Sj6Y6UI7miW1mXGKPUoALr8jog"/>
+</div>
+<div class="p-5">
+<div class="flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-amber-400 text-sm fill-1">star</span>
+<span class="text-xs font-bold">4.5</span>
+<span class="text-xs text-slate-400">(12 reviews)</span>
+</div>
+<h3 class="font-bold text-lg mb-1 group-hover:text-primary transition-colors">Professional Spray Gun</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-2 mb-4">Gravity feed spray gun for uniform finish on large surface areas.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-extrabold text-primary">₹12,200</span>
+<button class="p-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+</button>
+</div>
+<button class="w-full mt-4 py-2 text-sm font-bold border-2 border-primary/20 group-hover:border-primary/50 rounded-xl hover:bg-primary/10 transition-colors">View Details</button>
+</div>
+</div>
+</div>
+<div class="mt-12 flex justify-center">
+<nav class="flex items-center gap-2">
+<button class="w-10 h-10 rounded-xl border border-slate-200 dark:border-slate-700 flex items-center justify-center hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-lg">chevron_left</span>
+</button>
+<button class="w-10 h-10 rounded-xl bg-primary text-white font-bold">1</button>
+<button class="w-10 h-10 rounded-xl border border-slate-200 dark:border-slate-700 flex items-center justify-center hover:bg-primary/10 transition-colors font-medium">2</button>
+<button class="w-10 h-10 rounded-xl border border-slate-200 dark:border-slate-700 flex items-center justify-center hover:bg-primary/10 transition-colors font-medium">3</button>
+<span class="px-2">...</span>
+<button class="w-10 h-10 rounded-xl border border-slate-200 dark:border-slate-700 flex items-center justify-center hover:bg-primary/10 transition-colors font-medium">15</button>
+<button class="w-10 h-10 rounded-xl border border-slate-200 dark:border-slate-700 flex items-center justify-center hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-lg">chevron_right</span>
+</button>
+</nav>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-slate-900 text-slate-400 py-12 mt-20 border-t border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-3 text-white mb-6">
+<div class="bg-primary p-1.5 rounded-lg">
+<span class="material-symbols-outlined text-xl">construction</span>
+</div>
+<h2 class="text-lg font-bold">Harihar Hardware</h2>
+</div>
+<p class="text-sm leading-relaxed mb-6">Your trusted partner for premium industrial hardware and professional paint solutions since 1995.</p>
+<div class="flex gap-4">
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">social_leaderboard</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">photo_camera</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">alternate_email</span></a>
+</div>
+</div>
+<div>
+<h3 class="text-white font-bold mb-6">Quick Links</h3>
+<ul class="space-y-3 text-sm">
+<li><a class="hover:text-white transition-colors" href="#">Product Catalog</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Our Brands</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Bulk Orders</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Store Locator</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-white font-bold mb-6">Support</h3>
+<ul class="space-y-3 text-sm">
+<li><a class="hover:text-white transition-colors" href="#">Help Center</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Shipping Info</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Returns &amp; Warranty</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Contact Support</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-white font-bold mb-6">Newsletter</h3>
+<p class="text-sm mb-4">Get updates on new inventory and deals.</p>
+<div class="flex flex-col gap-2">
+<input class="bg-slate-800 border-none rounded-xl px-4 py-2 text-sm focus:ring-1 focus:ring-primary" placeholder="Email address" type="email"/>
+<button class="bg-primary text-white rounded-xl py-2 text-sm font-bold hover:bg-primary/90 transition-colors">Subscribe</button>
+</div>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-slate-800 text-xs text-center">
+<p>© 2024 Harihar Hardware &amp; Paints. All rights reserved. Designed for industrial excellence.</p>
+</div>
+</div>
+</footer>
+</body></html>

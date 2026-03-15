@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec5b13",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221610",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>About Us | Harihar Hardware &amp; Paints</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors duration-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Top Navigation Bar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-6 lg:px-40 py-4 bg-background-light dark:bg-background-dark sticky top-0 z-50">
+<div class="flex items-center gap-4 text-primary">
+<div class="size-6">
+<span class="material-symbols-outlined text-3xl">construction</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-lg font-bold leading-tight tracking-[-0.015em]">Harihar Hardware &amp; Paints</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="hidden md:flex items-center gap-9">
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Products</a>
+<a class="text-primary text-sm font-bold" href="#">About Us</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<div class="flex gap-2">
+<button class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+<button class="flex items-center justify-center rounded-xl h-10 w-10 bg-primary text-white hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<!-- Hero Section -->
+<div class="px-6 lg:px-40 py-8">
+<div class="@container">
+<div class="@[480px]:py-3">
+<div class="relative bg-cover bg-center flex flex-col justify-end overflow-hidden rounded-xl min-h-[400px] shadow-2xl" data-alt="Modern hardware store interior with organized tools and paint samples" style='background-image: linear-gradient(0deg, rgba(34, 22, 16, 0.8) 0%, rgba(34, 22, 16, 0.2) 50%, rgba(34, 22, 16, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuByZUg76iFK3WZZvIsZ9aM346el8aYSPJBgDeFz7PjhFu1EYni2SIZL1lgnmUe_QzunJjKrFYr22RSx_d23Y2QW9RdnZMMRfJUYWTYj95RO8y0qVhom7m7x6-vmeZ1OStOIAbmiUcFB-8FCgE5VXf0FPLzMLJM8nq7X2np1dv9pGQT6lybiPLgZ82PTSD3qu8GxZKZMu5-WcdTFXAMtH12jfgMETvIS3A8J2feZOW2L5LyLFXzvwYpFqeWkGBsv5VUdif0byOhURA");'>
+<div class="flex flex-col p-8 md:p-12">
+<span class="text-primary font-bold tracking-widest uppercase text-sm mb-2">Established 2002</span>
+<h1 class="text-white tracking-tight text-4xl md:text-6xl font-black leading-tight max-w-2xl">Trusted Industry Partners Since 2002</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Our Story Section -->
+<section class="px-6 lg:px-40 py-12">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-6">
+<h2 class="text-slate-900 dark:text-slate-100 text-4xl font-black leading-tight tracking-[-0.033em]">Our Story</h2>
+<p class="text-primary text-lg font-semibold italic">Building foundations and coloring dreams for over two decades.</p>
+<div class="space-y-4 text-slate-600 dark:text-slate-400 text-base leading-relaxed">
+<p>
+                                    Founded in 2002, Harihar Hardware &amp; Paints began with a simple vision: to provide the local community with the highest quality building materials and expert advice. What started as a modest neighborhood shop has evolved into a cornerstone of the regional construction industry.
+                                </p>
+<p>
+                                    For over 20 years, we have stood by our commitment to reliability. We understand that every nail, every beam, and every drop of paint contributes to someone's dream home or a business's new beginning. That's why we only partner with the world's leading brands to ensure your projects stand the test of time.
+                                </p>
+</div>
+</div>
+<div class="rounded-xl overflow-hidden shadow-xl aspect-video lg:aspect-square bg-slate-200 dark:bg-slate-800">
+<img alt="Founder working in the early days of the hardware store" class="w-full h-full object-cover" data-alt="Historical photo of a traditional hardware store setup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMtWpsf0pR0k2rTdxxcZbq5EHq2yrTyaQZQfQynhWpRDfK_6KUki3MQyNqhub9sLhcx9U8SFrbOlt9wrtwdMPaYWnnIyqMGH69qMXZsI_QlfyUvKgIEwofCVLotxZGI-6euHHRZGprssrt97BxBhMDYRbRxJJaPCyLYMoFIlxxNRu9q2ArDf5aptSxN_yFdB6MMepPy3gHeXC7f3K7rK5bzke4mLPMA3j8Z7ya2Y6VNIN3S5fiqQ7nSTR6Kw4YkcVZHFsZnMV57Q"/>
+</div>
+</div>
+</section>
+<!-- Our Mission Section -->
+<section class="bg-primary/5 dark:bg-primary/10 px-6 lg:px-40 py-20">
+<div class="max-w-4xl mx-auto text-center flex flex-col items-center gap-6">
+<div class="bg-primary/20 p-4 rounded-full inline-flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-4xl">rocket_launch</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-4xl font-black">Our Mission</h2>
+<p class="text-xl text-slate-700 dark:text-slate-300 leading-relaxed">
+                            "To empower builders, homeowners, and contractors with premium materials and unparalleled expertise, ensuring every construction project is built on a foundation of quality and integrity."
+                        </p>
+</div>
+</section>
+<!-- Why Choose Us Section -->
+<section class="px-6 lg:px-40 py-20">
+<div class="flex flex-col gap-12">
+<div class="text-center max-w-2xl mx-auto">
+<h2 class="text-slate-900 dark:text-slate-100 text-4xl font-black mb-4">Why Choose Us?</h2>
+<p class="text-slate-600 dark:text-slate-400">Two decades of experience has taught us exactly what our clients need for success.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">verified</span>
+<h3 class="text-xl font-bold mb-3">Premium Quality</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    We stock only certified products from industry leaders. From heavy-duty hardware to designer paints, quality is never compromised.
+                                </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">groups</span>
+<h3 class="text-xl font-bold mb-3">Expert Advice</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    Our team consists of veterans with decades of experience who can help you choose the right materials for any specific environment.
+                                </p>
+</div>
+<!-- Card 3 -->
+<div class="bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">local_shipping</span>
+<h3 class="text-xl font-bold mb-3">On-Time Delivery</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    Construction delays are costly. Our logistics network ensures your materials arrive exactly when you need them.
+                                </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Partners/Brands Mini Section -->
+<section class="px-6 lg:px-40 py-12 border-t border-slate-200 dark:border-slate-800">
+<div class="flex flex-col gap-8 opacity-60 grayscale hover:grayscale-0 transition-all">
+<p class="text-center font-bold text-slate-500 uppercase tracking-widest text-xs">Partnering with Industry Giants</p>
+<div class="flex flex-wrap justify-center gap-12 items-center">
+<span class="text-2xl font-black text-slate-400">BRITISH PAINTS</span>
+<span class="text-2xl font-black text-slate-400">ASIAN PAINTS</span>
+<span class="text-2xl font-black text-slate-400">TATA STEEL</span>
+<span class="text-2xl font-black text-slate-400">ULTRATECH</span>
+<span class="text-2xl font-black text-slate-400">BERGER</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-900 text-white px-6 lg:px-40 py-16">
+<div class="grid md:grid-cols-4 gap-12">
+<div class="col-span-2 flex flex-col gap-6">
+<div class="flex items-center gap-4 text-primary">
+<span class="material-symbols-outlined text-3xl">construction</span>
+<h2 class="text-white text-lg font-bold">Harihar Hardware &amp; Paints</h2>
+</div>
+<p class="text-slate-400 max-w-sm">
+                            Your trusted partner in building excellence since 2002. Providing premium quality hardware and paint solutions for all your needs.
+                        </p>
+<div class="flex gap-4">
+<a class="text-white hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">social_leaderboard</span></a>
+<a class="text-white hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="text-white hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">alternate_email</span></a>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6">Quick Links</h4>
+<ul class="space-y-4 text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Products</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Our Story</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Locations</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Contact Us</h4>
+<ul class="space-y-4 text-slate-400">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">location_on</span> Main Market Street, CI</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">call</span> +91 98765 43210</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">mail</span> info@hariharhardware.com</li>
+</ul>
+</div>
+</div>
+<div class="mt-16 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+                    © 2024 Harihar Hardware &amp; Paints. All rights reserved.
+                </div>
+</footer>
+</div>
+</div>
+</body></html>

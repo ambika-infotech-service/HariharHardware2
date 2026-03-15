@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Harihar Hardware &amp; Paints | Quality Tools &amp; Industrial Supplies</title>
+<!-- Tailwind CSS v3 CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Inter for modern typography -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style data-purpose="typography">
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+<style data-purpose="custom-gradients">
+    .hero-gradient {
+      background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=2000');
+      background-size: cover;
+      background-position: center;
+    }
+    .brand-accent {
+      color: #F59E0B; /* Amber/Professional Orange */
+    }
+    .bg-brand-accent {
+      background-color: #F59E0B;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
+<nav class="container mx-auto px-4 py-3 flex items-center justify-between">
+<!-- Logo Section -->
+<div class="flex items-center gap-2">
+<img alt="Harihar Hardware &amp; Paints" class="h-12 w-auto object-contain" data-purpose="site-logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDnEMTkOCCwo78Wk5e9e2wl1Ysf8F6MgX6Y5TsWtLuwUeBpCiOFHeiA8ZmaUDlYvTwHYaW93aBQllmi5cAjuDdCV6WAfC1lH6GtVseeffcRmQCLS4yc8kp9St7pNPftG-IAx1KplyGoX63uuSXQxm1pP1qAhS3WM7YAHyDe8JO0jk8s-fwzCNFrP2BS7XfkEV4mXHq9cEcGv4betU0eYUqtr6dru3s9E6nmC8Cxx4dsOn7Wp5QOe8oUoS0Vu-1NUgMmBc1vLyraQ"/>
+<div class="hidden lg:block">
+<span class="block text-xl font-extrabold text-slate-900 leading-none">HARIHAR</span>
+<span class="text-xs font-semibold text-slate-500 uppercase tracking-widest">Hardware &amp; Paints</span>
+</div>
+</div>
+<!-- Navigation Links -->
+<div class="hidden md:flex items-center space-x-8 font-medium text-slate-600">
+<a class="text-blue-600 border-b-2 border-blue-600 pb-1" href="#">Home</a>
+<a class="hover:text-blue-600 transition-colors" href="#">Products</a>
+<a class="hover:text-blue-600 transition-colors" href="#">About Us</a>
+<a class="hover:text-blue-600 transition-colors" href="#">Services</a>
+<a class="hover:text-blue-600 transition-colors" href="#">Contact</a>
+</div>
+<!-- CTA Button -->
+<div class="flex items-center gap-4">
+<a class="hidden sm:block text-sm font-semibold text-slate-700" href="tel:+919898659470">
+<span class="text-blue-600">Call:</span> +91 98986 59470
+        </a>
+<button class="bg-slate-900 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-slate-800 transition-all shadow-md">
+          Get a Quote
+        </button>
+</div>
+</nav>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="hero-gradient min-h-[85vh] flex items-center text-white relative overflow-hidden">
+<!-- Decorative Overlay Elements -->
+<div class="absolute top-0 right-0 w-1/3 h-full bg-blue-600/10 skew-x-12 transform translate-x-1/2"></div>
+<div class="container mx-auto px-4 relative z-10">
+<div class="max-w-3xl">
+<span class="inline-block px-4 py-1.5 bg-blue-600/30 border border-blue-400/30 rounded-full text-blue-200 text-sm font-semibold mb-6 backdrop-blur-sm">
+            Trusted Industry Partners Since 2002
+          </span>
+<h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+            Your One-Stop Destination for <span class="text-blue-400">Premium Hardware</span> &amp; Paints
+          </h1>
+<p class="text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl">
+            Supplying top-quality tools, industrial fittings, and decorative paints to contractors, plumbers, and homeowners across Ahmedabad.
+          </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-xl shadow-blue-900/20 flex items-center justify-center gap-2">
+              Browse Products
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<button class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all flex items-center justify-center">
+              Contact Us
+            </button>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: FeaturesHighlight -->
+<section class="py-16 bg-white border-b border-slate-100">
+<div class="container mx-auto px-4">
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Feature 1 -->
+<div class="flex items-start gap-5 p-6 rounded-2xl border border-slate-50 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+<div class="bg-blue-50 p-4 rounded-xl text-blue-600 shrink-0">
+<svg class="h-8 w-8" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">Premium Quality Brands</h3>
+<p class="text-slate-500 leading-relaxed">Sourced from globally recognized manufacturers to ensure durability and performance.</p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="flex items-start gap-5 p-6 rounded-2xl border border-slate-50 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+<div class="bg-amber-50 p-4 rounded-xl text-amber-600 shrink-0">
+<svg class="h-8 w-8" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">Expert Advice</h3>
+<p class="text-slate-500 leading-relaxed">Our knowledgeable staff helps you find the right tool or shade for your specific project needs.</p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="flex items-start gap-5 p-6 rounded-2xl border border-slate-50 hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+<div class="bg-emerald-50 p-4 rounded-xl text-emerald-600 shrink-0">
+<svg class="h-8 w-8" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">Wide Inventory</h3>
+<p class="text-slate-500 leading-relaxed">Ready stock for bulk orders and immediate requirements. No waiting for essential supplies.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FeaturesHighlight -->
+<!-- BEGIN: CategoriesGrid -->
+<section class="py-24 bg-slate-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-extrabold text-slate-900 mb-4">What We Supply</h2>
+<div class="w-24 h-1.5 bg-blue-600 mx-auto rounded-full"></div>
+<p class="mt-6 text-slate-600 max-w-2xl mx-auto text-lg">Comprehensive range of industrial and residential supplies under one roof.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Category 1 -->
+<div class="group relative overflow-hidden rounded-3xl bg-white shadow-lg shadow-slate-200/60 border border-white">
+<div class="h-64 overflow-hidden">
+<img alt="Hardware Tools" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_UcZOrfN9uNsIyqwyBIS5E5iYg0kdVKbM2Y1apnPe39F-vT5exe7z190PVFIywrGAbVc0H0Y94S8KVzxr-_xgkx11Tt9tO8ILxS5qeKOTUqhLfxNl4b5-Z2msWasmS674bNuWB-0LgWtFOWboixtpuTHylmEinMCxjJfMkaL7yhuslx8FuyvkmMY5k_WMJwy9bbmz1Gv_j3qa5gbvGmOfTVS0iGuWTecZVU84eQbl7EzRQpljNcwtm_mEAqFIQo0I7bSuLeIUBg"/>
+</div>
+<div class="p-8">
+<h3 class="text-2xl font-bold text-slate-900 mb-2">Hardware Tools</h3>
+<p class="text-slate-500 mb-6">Professional grade power tools, hand tools, and fasteners for heavy-duty use.</p>
+<a class="text-blue-600 font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                Explore Items <svg class="h-5 w-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+<!-- Category 2 -->
+<div class="group relative overflow-hidden rounded-3xl bg-white shadow-lg shadow-slate-200/60 border border-white">
+<div class="h-64 overflow-hidden">
+<img alt="Decorative Paints" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAovm-ZP3gIngzM0_dgX4aT_6cxP1eiVQaNv9ooMCMfvEeSMysJK7r1edYO5faKHnkmWa7TXpcqLmOQ4zBnmHD4d1opigkv7aPSV8Kq9XEmWF8YKQ8giurSsPWZuGMXCH3rwDH8MVR078gSzwVg4b9_2OURkfjQYujhUPzH-hm8QA3Pk7aqnTlWZsepv8RBM9FSvgfZzhVRG072PwuL7E3Cj7jLwiQs9XZaIYe0fFpY1KPnII-1Y-PYKC6ZE8m4WzfRZLyFYEpmyQ"/>
+</div>
+<div class="p-8">
+<h3 class="text-2xl font-bold text-slate-900 mb-2">Decorative Paints</h3>
+<p class="text-slate-500 mb-6">Vibrant color collections, primers, and textures from brands like Asian Paints.</p>
+<a class="text-blue-600 font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                View Palette <svg class="h-5 w-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+<!-- Category 3 -->
+<div class="group relative overflow-hidden rounded-3xl bg-white shadow-lg shadow-slate-200/60 border border-white">
+<div class="h-64 overflow-hidden">
+<img alt="Plumbing &amp; Pipes" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5eYtTtzqsdgt5KElKdl6pDuU_nGRl9R0uUJoE9yW5XfP9JIDl9e4UQs9TozYi415DzwyM3rhGqNyH2K6sRuB7y9FrrtkZ7_dGNWv9OVn6n0TH-2r6SDNI7zgC1rAhk3J_Gf8LtTlTolPpRooSBmx2KAQBLoQaDHAsCkUvAY6syE32lIQvxsSruBYrjSA6WlPoi0hSakcPAcaTQGIOmR0p0sSsZGYk70DRAEVGgt1IW-Z0saFmypo06XTKl3QRKyxtx0qhBpky2w"/>
+</div>
+<div class="p-8">
+<h3 class="text-2xl font-bold text-slate-900 mb-2">Plumbing &amp; Pipes</h3>
+<p class="text-slate-500 mb-6">UPVC, CPVC, and SWR pipes with high-quality leak-proof fittings and valves.</p>
+<a class="text-blue-600 font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                See Catalog <svg class="h-5 w-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<!-- Secondary Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+<div class="flex flex-col md:flex-row bg-white rounded-3xl overflow-hidden shadow-lg border border-white group">
+<div class="md:w-1/2 overflow-hidden">
+<img alt="Industrial Fittings" class="w-full h-full object-cover group-hover:scale-105 transition-duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2CA1NguVIO-PEtjW6NC9F6nKY_LloiNLExMMUI0QX6v5mbXGutc6cxcAGgda6uXu7v7L7bp1mBca52Av6AIbOxi0wcZux1W8DH05E654TD-ucKmBXIlulPX-SzbVOWUtPG1cyDyKZ0AzFe4PoNizJ4IpFMOSi1ZWX8jqpCeW5yFuVh1K8tXrwEu-oId4DnFijQxX5VV3pR_3ikv4nECkIeWI96bo6lW8xKOSytyUrKE6QGSzT1IrdkSaR31y7bbYHpmduG4cuZw"/>
+</div>
+<div class="p-8 md:w-1/2 flex flex-col justify-center">
+<h3 class="text-2xl font-bold text-slate-900 mb-2">Industrial Fittings</h3>
+<p class="text-slate-500 mb-6">High-pressure valves, GI fittings, and industrial hardware for large-scale setups.</p>
+<a class="text-blue-600 font-bold" href="#">Request Industrial Quote →</a>
+</div>
+</div>
+<div class="flex flex-col md:flex-row bg-white rounded-3xl overflow-hidden shadow-lg border border-white group">
+<div class="md:w-1/2 overflow-hidden">
+<img alt="Electrical Supplies" class="w-full h-full object-cover group-hover:scale-105 transition-duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDApj3EmafDblHtCX33gbfVa9cdTgnxyiFVG_bxL5v1e-50C9TlagPL8f9lVKEw5lVw2bnl7FpcCVJayd75EFDO4_5eeXrKCYRY7ARczCn6-_EmHWlltQSZPtibjDIL5cKnD3xIFq8M9nr1HUHRBtuJ9xhEkKv3X5heqqwO2HtZ3_Kk4ovfSmXRANTDI0SUhwbqF3bNjZHnNzZ6ZCilDEeoh1ucy6DPPwIzHYGEoOFwj1Oq2JPVQAvFFJqMqzar8HtoikRTlevpJw"/>
+</div>
+<div class="p-8 md:w-1/2 flex flex-col justify-center">
+<h3 class="text-2xl font-bold text-slate-900 mb-2">Electrical Supplies</h3>
+<p class="text-slate-500 mb-6">Wiring solutions, switches, MCBs, and lighting fixtures from trusted brands.</p>
+<a class="text-blue-600 font-bold" href="#">View Inventory →</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CategoriesGrid -->
+<!-- BEGIN: BrandShowcase -->
+<section class="py-16 bg-white overflow-hidden border-y border-slate-100">
+<div class="container mx-auto px-4">
+<p class="text-center text-slate-400 font-bold uppercase tracking-widest text-sm mb-10">Authorized Partner for Leading Brands</p>
+<div class="flex flex-wrap justify-center items-center gap-12 opacity-70 grayscale hover:grayscale-0 transition-all">
+<!-- Using placeholder logos for prominent brands mentioned -->
+<img alt="Asian Paints" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnEFLr2n-dcFPRtzDKdQ15I0XH5zzOrguH0vsABLOdSarDprcXP5WlwAKWLvSeDY8UHtWvQKXwJarXHKe4VTuNfQ-hXzz79NCwni6WoDM1y9QLKdkK6oWveQltjVakQEYEyju2Q_OUpVHWFDH6rhmMvo44a3ulJ2wxk3jiCK7s1Nr8DrMu7BhGD1rxkIES9H9RWT7AwFG_qfqz4-ctOWhGRUJCi_vNFSxAD6aKCG1siRPO_on9JYwbjMr0p022y8_UAr-uriB0_A"/>
+<img alt="Astral Pipes" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4jtX0KSIlzZ0JSHDrsP3higvKnQr6x09fVoZakz8cOo1jlQHzUE6miopUmmyN3NCsSXbO6Om36cCEo2jQET1Tmoca1hI_aDGpIBgmtSrWGhu2lQTPZ8ic4oVL4wnxMQeJM8R9lJlWDkAXJjCiQi2JvJKkNdKvEaHt-zhO_6n1CEJcun0Qmwu6c3hQnJsysLELkGIsbNllcUfbYOV8Zg6zRdLNhd7HG-EleqibfmdSBSPwtVQf5YrFmrubDKRNPbFM72faJIjojA"/>
+<img alt="Berger Paints" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAVBJVYjaz1YtYrNv69TMP606jBdzHde_TcoC6lnT0ObaaCqwJYhV7L2YZUKQGt8Dqzv5V_hS1jWQdHgyhRNx-WYeaoacK9hZV2xky2I9ODWdjEROOpuzZb8atsrvUY95DwSESgnMUwnvjHM05TcctUXgY3xaTWPXPG_RAqZIZYMwKKCavdwE80DV9L785WB5RRSMXv7a0MMFODKnLL0aJv3HFF7hCQP6kGh8ApFQtvpMkKAijqgf33nA_S3PVZBxHItEOky9bPQ"/>
+<img alt="Bosch Tools" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_xFFzOS3cxGns3ldzR33P9me0S4EtU9Vwh8nLjGO6Y0eqfL7ToL-KLvpzqzBxaZxcxHwx1wcd5N3sn4ys3mZX7gHAxYw94oDS4ivBw8gl-5AgOj_oB44krxVKTkymn7zFncmMKGPgiBJoJkXemrMP6PrMxreRHcffmnL3WZOQ8UNb-Nq-G0Pc_8jVZWD50VuP_o-Qdct5XVDwlqgNOVoPI6PXrTrKYHEty-ub0wbMOyugR582ltU-GJNHc6mkwqlEqTZW6edvyQ"/>
+<img alt="Jaquar" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAeq-EvPFZ3JA1-gUolNA_XyhVrQL0_RasujVMoAaCwR_qP-zvhrDpggaegpGqvgGWKxrBurdKZcN5Z-kmHywxSxFaRKmuOO-EAVC92PDgXxQZVNNZOq6easphYPZbh2hIaCLsoUiOS7_X7sjSgDe-tu0x6mkuwR-VI6bhswQTVJrDjb4rpKf9S0nEvRh7po5FgoOwYP-mLt61YRom58iiesLSoRZRDijiYSPW0OH_EW-fyIwUyd48rLirmn8XlY0BwlZcf5-6Fw"/>
+<img alt="Finolex" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCv9OF5FUyfmqeMEirIA2jQITETXRSxzGWcioYm0EOY6Ycum2T8F56HAnsG5NfajGmT1f4ooV4McFPeHTpCGTJyxkheOdX6d_WaeSNg0EKabTsnZuvje9Ibrul4lSsnPybStPRFoDVI9cyukSPEDDh_dwfV_LjIJLF7QHIVJH43bGKmY-XcIlxxCuYYgpJWcFJqnaq7Bjnlon-Zwv8ZH-MdfJDOZrcYgoHNLzhf43zp-kLJWAYfuM6IxFmpdByGSw6SHYcn96sm9Q"/>
+</div>
+</div>
+</section>
+<!-- END: BrandShowcase -->
+<!-- BEGIN: Testimonials -->
+<section class="py-24 bg-slate-900 text-white relative">
+<div class="container mx-auto px-4 relative z-10">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-4xl font-extrabold mb-16">What Our Clients Say</h2>
+<div class="grid md:grid-cols-2 gap-10">
+<!-- Testimonial 1 -->
+<div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 text-left">
+<div class="flex text-amber-400 mb-4">
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+</div>
+<p class="italic text-slate-300 mb-6">"Harihar Hardware has been our reliable partner for over a decade. Their stock availability for industrial fittings is unmatched in the Ahmedabad Gota area."</p>
+<div>
+<p class="font-bold text-lg text-white">Mr. Rajesh Patel</p>
+<p class="text-blue-400 text-sm">Industrial Contractor</p>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 text-left">
+<div class="flex text-amber-400 mb-4">
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="h-5 w-5 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+</div>
+<p class="italic text-slate-300 mb-6">"I visited for home painting supplies. The team helped me choose the perfect shade and even recommended the best primer for my walls. Exceptional service!"</p>
+<div>
+<p class="font-bold text-lg text-white">Mrs. Anjali Sharma</p>
+<p class="text-blue-400 text-sm">Homeowner</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Testimonials -->
+<!-- BEGIN: QuickContactCTA -->
+<section class="py-12 bg-blue-600">
+<div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 text-white">
+<div>
+<h2 class="text-3xl font-bold mb-2">Need a custom quote?</h2>
+<p class="text-blue-100">Send us your requirements and we'll get back to you within 2 hours.</p>
+</div>
+<div class="flex flex-wrap gap-4">
+<a class="bg-white text-blue-600 px-8 py-3 rounded-full font-bold shadow-lg hover:bg-blue-50 transition-colors flex items-center gap-2" href="https://wa.me/919898659470">
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+            WhatsApp Us
+          </a>
+<a class="border-2 border-white text-white px-8 py-3 rounded-full font-bold hover:bg-white/10 transition-colors" href="mailto:hariharhardwareandpaints@gmail.com">
+            Email Request
+          </a>
+</div>
+</div>
+</section>
+<!-- END: QuickContactCTA -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-slate-900 text-slate-400 pt-20 pb-10">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Brand Info -->
+<div>
+<div class="flex items-center gap-2 mb-6">
+<img alt="Logo" class="h-10 w-auto brightness-0 invert opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvFBXi55DV-8rMqg6wizM7ju2m8Ycvs5Uzijbp-ZRzwWLaTAIoKFae9fapTXBDD2crFsrADg6Xjds_ekh4ICkIYZioO6OGWTTSVjE88Sl38k42biFTmEJU5IMoU5ywQ9HABpwCY-MlgfwM8MyjuGYVFZ3wcY4Kg1GxOr72RGkkWfjINulQHMMJw5JUSYdS-mJMCeX8Xki0icXRznCcd6FZr912uJuEWN7n-vPrC-4NV6TpS3YUFdkuIde7xJ1XeQxJObtKh4Sztg"/>
+<span class="text-white font-bold text-xl">HARIHAR</span>
+</div>
+<p class="mb-6 leading-relaxed">Quality hardware and pipe fittings supplier since 2002. Dedicated to providing superior products for industrial and residential infrastructure.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors text-white" href="#">
+<svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+</a>
+<a class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors text-white" href="#">
+<svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h4 class="text-white font-bold mb-6">Quick Links</h4>
+<ul class="space-y-4">
+<li><a class="hover:text-blue-400 transition-colors" href="#">Home</a></li>
+<li><a class="hover:text-blue-400 transition-colors" href="#">Products Catalog</a></li>
+<li><a class="hover:text-blue-400 transition-colors" href="#">About Company</a></li>
+<li><a class="hover:text-blue-400 transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-blue-400 transition-colors" href="#">Terms &amp; Conditions</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h4 class="text-white font-bold mb-6">Contact Info</h4>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<svg class="h-6 w-6 text-blue-500 shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>Ground floor, Krishna Complex, Opposite Ambika Dalvada, Gota Cross Road, Ahmedabad-382481</span>
+</li>
+<li class="flex items-center gap-3">
+<svg class="h-6 w-6 text-blue-500 shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>+91 98986 59470</span>
+</li>
+<li class="flex items-center gap-3">
+<svg class="h-6 w-6 text-blue-500 shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-sm">hariharhardwareandpaints@gmail.com</span>
+</li>
+</ul>
+</div>
+<!-- Business Hours -->
+<div>
+<h4 class="text-white font-bold mb-6">Business Hours</h4>
+<ul class="space-y-4">
+<li class="flex justify-between border-b border-slate-800 pb-2">
+<span>Mon - Sat:</span>
+<span class="text-white">8:30 AM - 8:00 PM</span>
+</li>
+<li class="flex justify-between border-b border-slate-800 pb-2">
+<span>Sunday:</span>
+<span class="text-white">8:30 AM - 12:00 PM</span>
+</li>
+<li class="mt-8">
+<a class="bg-blue-600/20 text-blue-400 px-4 py-2 rounded-lg block text-center border border-blue-600/30 hover:bg-blue-600 hover:text-white transition-all font-semibold" href="#">
+                Get Directions on Map
+              </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-800 text-center text-sm">
+<p>© 2024 Harihar Hardware &amp; Paints. All rights reserved. Designed and developed by Ambika Infotech.</p>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- Floating WhatsApp Button -->
+<a class="fixed bottom-6 right-6 z-[99] bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95" href="https://wa.me/919898659470" title="WhatsApp Us">
+<svg class="h-8 w-8" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+</a>
+</body></html>
