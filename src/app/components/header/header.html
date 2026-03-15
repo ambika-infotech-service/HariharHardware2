@@ -1,0 +1,65 @@
+<header class="site-header" role="banner">
+  <div class="header-container">
+    <a class="brand-logo" routerLink="/" aria-label="Harihar Hardware and Paints Home">
+      <img class="brand-logo-image" ngSrc="/logo.png" width="42" height="42" alt="Harihar Hardware and Paints" priority />
+      <span class="brand-text-wrap">
+        <strong class="brand-title">Harihar</strong>
+        <span class="brand-subtitle">Hardware and Paints</span>
+      </span>
+    </a>
+
+    <button
+      class="mobile-menu-toggle"
+      type="button"
+      (click)="toggleMobileMenu()"
+      [class.active]="mobileMenuOpen"
+      [attr.aria-expanded]="mobileMenuOpen"
+      aria-label="Toggle navigation menu"
+    >
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+
+    <div class="nav-menu" [class.active]="mobileMenuOpen">
+      <ul class="nav-links" role="list">
+        <li>
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMobileMenu()">
+            {{ translate('nav.home') }}
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" routerLink="/products" routerLinkActive="active" (click)="closeMobileMenu()">
+            {{ translate('nav.products') }}
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" routerLink="/about" routerLinkActive="active" (click)="closeMobileMenu()">
+            {{ translate('nav.about') }}
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" routerLink="/faq" routerLinkActive="active" (click)="closeMobileMenu()">
+            {{ translate('nav.faq') }}
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active" (click)="closeMobileMenu()">
+            {{ translate('nav.contact') }}
+          </a>
+        </li>
+      </ul>
+
+      <div class="header-actions">
+        <a class="call-link" href="tel:+919898659470">Call: +91 98986 59470</a>
+        <a class="quote-link" routerLink="/contact" (click)="closeMobileMenu()">Get a Quote</a>
+      </div>
+
+      <div class="language-selector" role="group" aria-label="Language selection">
+        <button type="button" class="lang-btn" [class.active]="language() === 'en'" (click)="setLanguage('en')" aria-label="Switch to English">EN</button>
+        <button type="button" class="lang-btn" [class.active]="language() === 'gu'" (click)="setLanguage('gu')" aria-label="Switch to Gujarati">ગુ</button>
+        <button type="button" class="lang-btn" [class.active]="language() === 'hi'" (click)="setLanguage('hi')" aria-label="Switch to Hindi">हि</button>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,78 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <section>
+        <a class="footer-brand" routerLink="/" aria-label="Harihar Hardware and Paints Home">
+          <img class="footer-logo" ngSrc="/logo.png" width="40" height="40" alt="Harihar Hardware and Paints" />
+          <span>Harihar Hardware and Paints</span>
+        </a>
+        <p class="footer-copy">{{ translate('footer.aboutText') }}</p>
+        <div class="footer-social" aria-label="Social links">
+          <a [href]="googleBusinessUrl" target="_blank" rel="noopener noreferrer" aria-label="Google profile">
+            <i class="bi bi-google"></i>
+          </a>
+          <a [href]="whatsappUrl" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a [href]="googleMapsUrl" target="_blank" rel="noopener noreferrer" aria-label="Directions map">
+            <i class="bi bi-geo-alt-fill"></i>
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <h2>{{ translate('footer.quickLinks') }}</h2>
+        <ul>
+          <li><a routerLink="/">{{ translate('nav.home') }}</a></li>
+          <li><a routerLink="/products">{{ translate('nav.products') }}</a></li>
+          <li><a routerLink="/about">{{ translate('nav.about') }}</a></li>
+          <li><a routerLink="/faq">{{ translate('nav.faq') }}</a></li>
+          <li><a routerLink="/contact">{{ translate('nav.contact') }}</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>{{ translate('footer.contactInfo') }}</h2>
+        <ul class="contact-list">
+          <li>
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>{{ translate('contact.info.addressValue') }}</span>
+          </li>
+          <li>
+            <i class="bi bi-telephone-fill"></i>
+            <a href="tel:+919898659470">+91 98986 59470</a>
+          </li>
+          <li>
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:hariharhardwareandpaints@gmail.com">hariharhardwareandpaints&#64;gmail.com</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>{{ translate('footer.hours') }}</h2>
+        <ul class="hours-list">
+          <li>
+            <span>Mon - Sat</span>
+            <strong>8:30 AM - 8:00 PM</strong>
+          </li>
+          <li>
+            <span>Sunday</span>
+            <strong>8:30 AM - 12:00 PM</strong>
+          </li>
+        </ul>
+        <a class="map-cta" [href]="googleMapsUrl" target="_blank" rel="noopener noreferrer">
+          {{ translate('footer.getDirections') }}
+        </a>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        {{ translate('footer.copyright') }}
+        Designed and developed by
+        <a href="https://ambikainfotech.online" target="_blank" rel="noopener noreferrer">Ambika Infotech</a>
+      </p>
+    </div>
+  </div>
+</footer>

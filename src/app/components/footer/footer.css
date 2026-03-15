@@ -1,0 +1,157 @@
+.site-footer {
+  background: #08132d;
+  color: #d2ddf7;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem 1.25rem;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer-logo {
+  border-radius: 9px;
+  object-fit: contain;
+  background: #ffffff;
+  border: 1px solid #203153;
+}
+
+.footer-copy {
+  margin-top: 1rem;
+  color: #aec0e4;
+  line-height: 1.6;
+  max-width: 26ch;
+}
+
+.footer-social {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.footer-social a {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid #2d416d;
+  color: #d8e2f9;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #ffffff;
+  border-color: #3b82f6;
+  background: #1d4ed8;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+ul {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #c3d2f4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  line-height: 1.5;
+}
+
+.contact-list i {
+  margin-top: 0.2rem;
+  color: #5f9cff;
+}
+
+.hours-list li {
+  border-bottom: 1px solid #1f2f53;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hours-list li strong {
+  color: #ffffff;
+  font-size: 0.88rem;
+}
+
+.map-cta {
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2d4da5;
+  background: #123987;
+  color: #e8efff;
+  border-radius: 8px;
+  padding: 0.55rem 0.8rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.map-cta:hover {
+  background: #1d4ed8;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  border-top: 1px solid #1f2f53;
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  text-align: center;
+  color: #9db3dd;
+  font-size: 0.84rem;
+}
+
+.footer-bottom a {
+  color: #c9dcff;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1.25fr 0.85fr 1fr 1fr;
+  }
+}
